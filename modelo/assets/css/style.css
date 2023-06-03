@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+/* @media (min-width: 640px)
+.sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+@media (min-width: 640px)
+  .sm\:h-60 {
+  height: 15rem;
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+:root {
+  --color-01:#9A1919;
+  --color-02: rgb(236, 237, 238);
+  --color-03: rgba(231, 227, 224, 0.8);
+  --color-04: rgba(243,244,246)
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-03);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 1275px;
+  margin: 50px auto;
+  background: var(--color-02);
+  padding: 5px;
+  border-radius: 10px;
+}
+#imgface{
+  border-radius: 10px;
+  margin: auto;
+  max-width: 100%;
+}
+
+#containerLogo {
+  max-width: 100%;
+  margin: -100px 200px;
+  background: var(--color-03);
+  padding: 1px;
+  border-radius: 10px;
+  display: flex;
+  gap: 5%;
+}
+#containerLogo > h1 {
+  margin-top: 50px;
+  font-family: 'Archivo Black', sans-serif;
+}
+#logo{
+ 
+  border-radius: 10px;
+  background: var(--color-04);
+  box-shadow: 1px 1px 5px rgb(189, 188, 188);
+  max-width: 120px;
+}
+
