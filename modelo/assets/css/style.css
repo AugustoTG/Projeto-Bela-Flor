@@ -57,8 +57,10 @@ body {
 }
 #imgface{
   border-radius: 10px;
-  margin: auto;
+  margin:auto;
   max-width: 100%;
+  margin-top: 60px;
+  
 }
 
 #containerLogo {
